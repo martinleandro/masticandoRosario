@@ -1,0 +1,130 @@
+@mixin subs {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $colorPrimario;
+  font-size: 70px;
+  font-style: italic;
+  text-align: start;
+  background-color: $bgMuyOscuro;
+}
+
+@mixin subsNI {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $colorPrimario;
+  font-size: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@mixin subsChicos {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $colorPrimario;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@mixin subsChicosNegros {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $colorSecundario;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@mixin subsChicosB {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $colorPrimario;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin parrafos {
+  color: $colorPrimario;
+  font-size: 2em;
+  background-color: $bgMuyOscuro;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin parrafosChicos {
+  color: $colorPrimario;
+  font-size: 16px;
+  background-color: $bgMuyOscuro;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+@mixin parrafosMedianos {
+  color: $colorPrimario;
+  font-size: 24px;
+  background-color: $bgMuyOscuro;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+@mixin parrafosMuyChicos {
+  color: $colorPrimario;
+  font-size: 13px;
+  background-color: $bgMuyOscuro;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+@mixin parrafosSinFondoChicos {
+  color: $colorPrimario;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin parrafosSinFondoChicosNegros {
+  color: $colorSecundario;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin parrafosSinFondoGrandes {
+  color: $colorPrimario;
+  font-size: 27px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin menuButton {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin menuSlideButton {
+  @include subsChicosNegros;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@mixin menuIcon {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+@mixin efectoCaer {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: .5s;
+}
+
+@mixin efectoAparecer {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: .8s;
+}

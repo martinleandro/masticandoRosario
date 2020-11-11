@@ -1,0 +1,29 @@
+/* ---------- PORTADA - TITULO --------- */
+.bodyPortada {
+  overflow: hidden;
+}
+
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.titulo {
+  text-align: center;
+  color: #efb4f1;
+  font-family: Neon Future;
+  font-size: 130px;
+  font-weight: normal;
+  padding: 80px 50px 10px 50px;
+  animation: cartelNeon 2s infinite alternate;
+}
+
+/* ---------- FIN PORTADA - TITULO --------- */

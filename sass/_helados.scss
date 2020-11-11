@@ -1,0 +1,63 @@
+.heladosBody {
+  background-image: url(../images/helados/fondoHeladosFinal.png);
+}
+
+.presentacionTwinky {
+  background-image: url(../images/helados/twinkyPresentacion.jpg);
+}
+
+.presentacionAmerico {
+  background-image: url(../images/helados/americoPresentacion.jpg);
+}
+
+.presentacionCatania {
+  background-image: url(../images/helados/cataniaPresentacion.jpg);
+}
+
+.heladosLocal1 {
+  width: 100%;
+  background-image: url(../images/helados/twinkyFondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heladosLocal2 {
+  width: 100%;
+  background-image: url(../images/helados/americoFondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.heladosLocal3 {
+  width: 100%;
+  background-image: url(../images/helados/cataniaFondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .heladosLocal1 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileTwinky.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .heladosLocal2 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileAmerico.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .heladosLocal3 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileCatania.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}

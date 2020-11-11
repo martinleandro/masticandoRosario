@@ -1,0 +1,233 @@
+/* MENU SLIDE */
+
+.cbp-spmenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: white;
+	position: fixed;
+}
+
+.cbp-spmenu .objeto1 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto1:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto1:hover h4 {
+	@include efectoCaer;
+}
+
+.cbp-spmenu .objeto2 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto2:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto2:hover h4 {
+	@include efectoCaer;
+}
+
+.cbp-spmenu .objeto3 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto3:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto3:hover h4 {
+	@include efectoCaer;
+}
+
+.cbp-spmenu .objeto4 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto4:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto4:hover h4 {
+	@include efectoCaer;
+}
+
+.cbp-spmenu .objeto5 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto5:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto5:hover h4 {
+	@include efectoCaer;
+}
+
+.cbp-spmenu .objeto6 h4 {
+	@include menuSlideButton;
+}
+
+.cbp-spmenu .objeto6:hover {
+	background: transparent;
+	cursor: pointer;
+}
+
+.cbp-spmenu .objeto6:hover h4 {
+	@include efectoCaer;
+}
+
+.objeto1 {
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/casa.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.objeto2 {
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/b1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.objeto3 {
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/p1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.objeto4 {
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/h1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.objeto5 {
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/v1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.objeto6 {
+	margin-right: 37px;
+	width: 17%;
+	height: 65px;
+	background-image: url(../images/menuslide/contact.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 68px;
+	left: 0;
+	z-index: 6;
+	overflow: hidden;
+}
+
+.cbp-spmenu-top {
+	top: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+	top: 0px;
+}
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+/* TRANSITIONS */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* FIN MENU SLIDE */
+
+@media only screen and (max-width: 520px) {
+
+	.objeto1,
+	.objeto2,
+	.objeto3,
+	.objeto4,
+	.objeto5,
+	.objeto6 {
+		width: 35px;
+		height: 35px;
+		background-size: cover;
+	}
+
+	.cbp-spmenu .objeto1 h4 {
+		color: transparent;
+	}
+
+	.cbp-spmenu .objeto2 h4 {
+		color: transparent;
+	}
+
+	.cbp-spmenu .objeto3 h4 {
+		color: transparent;
+	}
+
+	.cbp-spmenu .objeto4 h4 {
+		color: transparent;
+	}
+
+	.cbp-spmenu .objeto5 h4 {
+		color: transparent;
+	}
+
+	.cbp-spmenu .objeto6 h4 {
+		color: transparent;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	.cbp-spmenu .objeto1 h4 {
+		font-size: 12px;
+	}
+
+	.cbp-spmenu .objeto2 h4 {
+		font-size: 12px;
+	}
+
+	.cbp-spmenu .objeto3 h4 {
+		font-size: 12px;
+	}
+
+	.cbp-spmenu .objeto4 h4 {
+		font-size: 12px;
+	}
+
+	.cbp-spmenu .objeto5 h4 {
+		font-size: 12px;
+	}
+
+	.cbp-spmenu .objeto6 h4 {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,67 @@
+@import 'mediasqueries';
+
+.hamburguesas {
+  background-image: url(../images/hamburguesas/fondoHamb.png);
+}
+
+.presentacionOlson {
+  background-image: url(../images/hamburguesas/olsonfondo.jpg);
+}
+
+.presentacionOlaf {
+  background-image: url(../images/hamburguesas/olaflfondopres.jpg);
+}
+
+.presentacionRonnie {
+  background-image: url(../images/hamburguesas/ronniefondopres.jpg);
+}
+
+.burguerLocal1 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/fondoOlson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.burguerLocal2 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/fondoOlaf.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.burguerLocal3 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/ronnieBG.jpg);
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .burguerLocal1 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoOlsonMobile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .burguerLocal2 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoMobileOlaf.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .burguerLocal3 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoMobileRonnie.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}

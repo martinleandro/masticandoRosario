@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="description"
+    content="Te vamos a orientar para que sepas donde comer hamburguesas, pizzas y helados en tu visita a la ciudad de Rosario">
+  <meta name="keywords"
+    content="hamburguesas, pizzas, helados, veggie, cerveza artesanal, ciudad, rosario, bares, heladerias, cervecerias">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Masticando Rosario - Helados</title>
+</head>
+
+<body class="cbp-spmenu-push heladosBody">
+
+  <!-- BOTON MENU -->
+
+  <button id="showTop" class="hamburger hamburger--elastic" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <!-- FIN BOTON MENU -->
+
+  <!-- MENU SLIDE -->
+
+
+  <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
+    <div class="objeto1">
+      <a href="index.html">
+        <h4 class="ms-links">INICIO</h4>
+      </a>
+    </div>
+    <div class="objeto2">
+      <a href="hamburguesas.html">
+        <h4 class="ms-links">HAMBURGUESAS</h4>
+      </a>
+    </div>
+    <div class="objeto3">
+      <a href="pizzas.html">
+        <h4 class="ms-links">PIZZAS</h4>
+      </a>
+    </div>
+    <div class="objeto4">
+      <a href="helados.html">
+        <h4 class="ms-links">HELADOS</h4>
+      </a>
+    </div>
+    <div class="objeto5">
+      <a href="veggie.html">
+        <h4 class="ms-links">VEGGIE</h4>
+      </a>
+    </div>
+    <div class="objeto6">
+      <a href="#contactanos">
+        <h4 class="ms-links">CONTACTO</h4>
+      </a>
+    </div>
+  </nav>
+
+  <!-- FIN MENU SLIDE -->
+
+  <div id="contactanos" class="modalContacto">
+    <div class="modal-contenido">
+      <a class="cerrarContactos" href="#">X</a>
+      <form action="" class="formulario" autocomplete="off">
+        <label for="nombre" class="textoFormulario">Dejanos tu nombre!</label><br>
+        <input type="text" placeholder="Nombre y apellido"><br>
+        <div>
+          <label for="exampleFormControlInput1" class="textoFormulario">Tu mail!</label><br>
+          <input type="email" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div><br>
+        <label for="compañia" class="textoFormulario">Salís mas con amigos o en pareja?</label><br>
+        <select>
+          <option selected>Elegí tu compañía</option>
+          <option value="1">Amigos</option>
+          <option value="2">Pareja</option>
+          <option value="3">Mejor solo que mal acompañado</option>
+        </select><br>
+        <label for="" class="textoFormulario">Querés recibir novedades de nuevos locales y menus?</label><br>
+        <div class="botonesForm">
+          <div>
+            <input type="radio" id="customRadio1" name="customRadio">
+            <label for="customRadio1" class="textoFormulario opcion1">Si, me encantaría!</label>
+          </div>
+          <div>
+            <input type="radio" id="customRadio2" name="customRadio">
+            <label for="customRadio2" class="textoFormulario">Paso!</label>
+          </div>
+        </div><br>
+        <div class=" formulario">
+          <label for="exampleFormControlTextarea1" class="textoFormulario">Dejanos tus comentarios que nos super
+            interesan!</label><br>
+          <textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div><br>
+        <div class="botonesForm">
+          <button class="botonFormulario" type="submit" class="textoFormulario">Enviar</button>
+          <button class="botonFormulario" type="submit" class="textoFormulario">Borrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+
+  <header>
+    <div class="contenedorPortada">
+      <div>
+        <img src="images/helados/heladoPortada3.png" alt="helado de 3 bochas en cucurucho" class="imagenPortada">
+      </div>
+      <div class="textos">
+        <h2 class="subTitulos subTitulo">Helados</h2>
+        <p class="parrafoTitulo">Ya sea invierno o verano, este postre es siempre bienvenido mas siendo Rosario la
+          capital del helado
+          artesanal. La ciudad esta llena de heladerías, muchas de origen local, y otras sucursales de heladerias
+          reconocidas.
+          Te vamos a decir las tres que mas nos gustan a nosotros, para ir a disfrutar un rico helado si pasas por la
+          ciudad
+          y te dejas tentar con alguna de estas heladerías. VAMOS A VERLAS!
+        </p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="bares">
+
+      <ul class="listaBares">
+        <li class="bar1" data-aos="fade-up" data-aos-offset="350" data-aos-delay="200">
+          <h3 class="nombreBar1">twinky</h3><a href="#twinky"><img src="images/helados/twinkyBar5.jpg" alt="helado"
+              class="imgLocales"></a>
+        </li>
+        <li class="bar2" data-aos="fade-up" data-aos-offset="350" data-aos-delay="500">
+          <h3 class="nombreBar2">americo</h3><a href="#americo"><img src="images/helados/americoBar2.jpg"
+              alt="helado" class="imgLocales"></a>
+        </li>
+        <li class="bar3" data-aos="fade-up" data-aos-offset="350" data-aos-delay="700">
+          <h3 class="nombreBar3">catania</h3><a href="#catania"><img src="images/helados/cataniaBar.jpg"
+              alt="helado" class="imgLocales"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- FIN HEADER -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <section>
+      <div class=heladosLocal1>
+        <div id="twinky" class="presentacion presentacionTwinky">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>twinky</h3>
+            <p>Esta heladería se encuentra en el corazón de fisherton, tiene gran patio delantero, y también mucho lugar
+              adentro,
+              las especialidad de la casa es el super sambayon, sin embargo probamos otros gustos. Atendido por sus
+              propios dueños
+              te vas a sentir como en casa
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+              <div class="text">
+                <h3>como estaban esos helados?</h3>
+                <p>
+                  Decidimos comprar un kilo con 2 gustos, los gustó fueron dulce de leche twinky y kinder, son super
+                  cremoso,
+                  se nota que la materia prima es buena, gustos bien logrados, esperábamos un sabor mas industrial, pero
+                  no!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/menta.png" alt="helado en cono">
+              <div class="text">
+                <h3>menta</h3>
+                <p>
+                  Como ya dijimos anteriormente, muy cremoso, el sabor a menta es suave, pero muy rico, además viene con
+                  pedacitos
+                  de hojas de menta. Muy rico y fresco. Ideal para los que les gustan los sabores frescos y tranquilos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/superflan.png" alt="helado en cono">
+              <div class="text">
+                <h3>super flan</h3>
+                <p>
+                  Este sabor es uno de nuestros favoritos. Logrando alcanzar un sabor a flan casero espectacular, este
+                  te va
+                  a volar la cabeza. Con dulce de leche casero mezclado entre la cremosidad del helado, la combinación
+                  queda
+                  excelente. Para los que eligen sabores bien potentes!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div id="americo" class="presentacion presentacionAmerico">
+        <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+          <h3>americo</h3>
+          <p>
+            AMERICO Y SU FABRICA DE HELADOS posee dos sucursales en la ciudad, una muy chiquita (sin espacio para
+            sentarse a tomar un helado) en pichincha, y otra mas grande y muy pintoresca mas en el centro de la
+            ciudad.
+          </p>
+        </div>
+      </div>
+      <div class=heladosLocal2>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+              <div class="text">
+                <h3>que tal los helados?</h3>
+                <p>
+                  Estos helados Rosarinos, son artesanales 100%, no va sa conseguir algo mas cremoso que estos helados.
+                  Elaborados todos los dias con ingredientes naturales y de estación. VAMOS A VERLOS!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/cremadelcielo.png" alt="helado en cono">
+              <div class="text">
+                <h3>crema del cielo</h3>
+                <p>
+                  Este sabor se lo hicimos probar a un invitado especial que llevamos de paseo, mi sobrino. El nos
+                  comento que
+                  le gusto mucho, que el sabor era genial y muy cremoso. Ademas dijo que el cucurucho estaba
+                  riquísimo.
+                  Le dimos una probadita y rectificamos su opinion!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/cerezas.png" alt="helado en cono">
+              <div class="text">
+                <h3>frutilla</h3>
+                <p>
+                  Un clásico de los clásicos. Cuando vimos en la vidriera el color de este gusto, no dudamos en pedirlo.
+                  Un sabor muy
+                  delicado, con una textura muy buena acompañado con pedacitos de frutillas frescas. Es un sabor ideal
+                  para el verano,
+                  para darse una buena refrescada en esos dias mortales de calor. Muy rico. Recomendado para los que
+                  eligen los frutales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div id="catania" class="presentacion presentacionCatania">
+        <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+          <h3>catania</h3>
+          <p>
+            Catania es la familia heladera con más años de permanencia ininterrumpida en la ciudad de Rosario. Es un
+            verdadero emblema
+            del helado artesanal de nuestra ciudad. Con cremas artesanales, muchos sabores extraordinarios y con un
+            local grande,
+            aterrizamos en el barrio de echesortu a probar estos helados!
+          </p>
+        </div>
+      </div>
+      <div class=heladosLocal3>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+              <div class="text">
+                <h3>como son sus helados?</h3>
+                <p>
+                  En catania, los helados estan exhibidos en una heladera vidriada, donde te volvés loco con los colores
+                  y las texturas de esos helados.
+                  No sabes cual pedir, te dan ganas de probarlos todos! Con cremas increíbles, muchos sabores, y sus
+                  especialidades Sambayón italiano
+                  y Chocolate Catania.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/limon.png" alt="helado en cono">
+              <div class="text">
+                <h3>limón</h3>
+                <p>
+                  Como hacia mucho calor el dia que fuimos, decidimos tirarnos por dos frutales ( a pesar de que había
+                  terribles sabores mas bomba).
+                  Este sabor que por el color ya nos damos cuenta, es un limón explosivo, hipercremoso, con muy poca
+                  acidez, bien dulzón, y super
+                  refrescante, la verdad que nos sorprendió. Muy bueno para dias calurosos!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/helados/frutilla.png" alt="helado en cono">
+              <div class="text">
+                <h3>frutos rojos</h3>
+                <p>
+                  Probamos este sabor porque nos encantan los frutos rojos. El aroma es lo que mas nos llamo la
+                  atención, frutillas,
+                  cerezas, moras. Muy bien logrados. El sabor es muy rico, bien dulce y refrescante. Podemos notar que el
+                  que mas
+                  predomina es el de la frutilla, pero se siente una mezcla de sabores interesante. Riquísimo!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <!-- CONTENIDO PRINCIPAL -->
+
+  <br>
+
+ <!-- FOOTER -->
+
+ <footer class="footer">
+  <div class="redes">
+    <a href="#"><img src="images/footer/twitter.png" alt="twitter icono" class="footerIcon twitter"></a>
+    <a href="#"><img src="images/footer/facebook.png" alt="facebook icono" class="footerIcon facebook"></a>
+    <a href="#"><img src="images/footer/instagram.png" alt="instagram icono" class="footerIcon instagram"></a>
+    <a href="#"><img src="images/footer/whatsapp.png" alt="whatsapp icono" class="footerIcon whatsapp"></a>
+  </div>
+  <div class="datos">
+    <h4>Creado y Diseñado por <span class="creador"><a href="https://www.linkedin.com/in/leandro--martin/" target="_blank" class="formaBoton">Leandro Martin</a><img src="images/leandroMartinIn.png" class="fotoLea" alt=""></span></h4>
+  </div>
+    <div class="copyr">
+      <h4>Copyright ® 2020</h4>
+    </div>
+</footer>
+
+<!-- FIN FOOTER -->
+
+<!-- SCRIPTS -->
+
+  <script src="asd.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--  FIN SCRIPTS -->
+
+</body>
+
+</html>

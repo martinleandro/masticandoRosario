@@ -1,0 +1,110 @@
+@keyframes cartelNeon {
+
+  0%,
+  10%,
+  30%,
+  50%,
+  70%,
+  90%,
+  100% {
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff,
+      0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff,
+      0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff,
+      0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+  }
+
+  0%,
+  10%,
+  30%,
+  50%,
+  70%,
+  90%,
+  100% {
+    box-shadow:
+      0 0 0.1vw 0.4vw #fff7f7,
+      0 0 0.4vw 0.6vw #e400ff,
+      0 0 4vw 0.4vw #e400ff,
+      inset 0 0 1.5vw 0.4vw #e400ff,
+      inset 0 0 0.4vw 0.2vw #e400ff,
+      inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1.5rem;
+
+  }
+
+
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7,
+      inset 0 0 0.5vw 0.2vw #fff7f7;
+  }
+
+}
+
+@keyframes intermitente {
+
+  5%,
+  20%,
+  35%,
+  50%,
+  90% {
+    opacity: 0.3;
+  }
+
+  10%,
+  50%,
+  80% {
+    opacity: 1;
+  }
+
+}
+
+
+@keyframes aparece {
+
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: .1;
+  }
+
+  20% {
+    opacity: .2;
+  }
+
+  30% {
+    opacity: .3;
+  }
+
+  40% {
+    opacity: .4;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  60% {
+    opacity: .6;
+  }
+
+  70% {
+    opacity: .7;
+  }
+
+  80% {
+    opacity: .8;
+  }
+
+  90% {
+    opacity: .9;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}

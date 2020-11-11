@@ -1,0 +1,2572 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+* body {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+* button {
+  outline: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+* a:active {
+  background-color: transparent;
+}
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+* img {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: Neon Future;
+  src: url(../fonts/NeonFuture.ttf);
+}
+@media only screen and (max-width: 375px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 45px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 675px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 55px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 676px) and (max-width: 960px) {
+  .titulo {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 85px;
+    font-weight: normal;
+    padding: 24px 18px 2px 18px;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1450px) {
+  .titulo {
+    padding: 50px 35px 0px 35px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 120px;
+    font-weight: normal;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 960px) {
+  .heladosBody {
+    background-image: url(../images/helados/fondoHeladosFinal.png);
+    background-size: 280%;
+  }
+
+  .pizzasBody {
+    background-image: url(../images/pizzas/pizzaFondo5.png);
+    background-size: 280%;
+  }
+
+  .hamburguesas {
+    background-image: url(../images/hamburguesas/fondoHamb.png);
+    background-size: 280%;
+  }
+
+  .veggieBody {
+    background-image: url(../images/veggie/fondoVeggieFinal.png);
+    background-size: 280%;
+  }
+
+  .nombreBar1,
+.nombreBar2,
+.nombreBar3 {
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    opacity: 1;
+    user-select: none;
+  }
+
+  .bar1:hover .nombreBar1 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+    backface-visibility: hidden;
+  }
+
+  .bar2:hover .nombreBar2 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .bar3:hover .nombreBar3 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .textPresentacion {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+  }
+  .textPresentacion h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .contenedorPortada {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .textos {
+    margin-top: 0;
+  }
+
+  .parrafoTitulo {
+    color: white;
+    font-size: 16px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .subTitulo {
+    font-size: 3.2em;
+    text-align: center;
+  }
+
+  .bares {
+    width: 100%;
+  }
+
+  .listaBares {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .listaBares li img {
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+    filter: grayscale(0%);
+  }
+
+  .listaBares li {
+    margin-right: 10px;
+  }
+
+  .presentacion {
+    color: white;
+    text-align: center;
+  }
+  .presentacion p {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .local1 {
+    width: 100%;
+  }
+
+  .local2 {
+    width: 100%;
+  }
+
+  .local3 {
+    width: 100%;
+  }
+
+  .imagenPortada {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgLocales {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .text h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .car {
+    width: 300px;
+    height: auto;
+  }
+
+  .car1 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .car2 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .containerLocal1 {
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgCar {
+    width: 180px;
+    height: auto;
+  }
+
+  .text {
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .fotoLea {
+    display: none;
+  }
+
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+
+  .creador:hover .fotoLea {
+    opacity: 1;
+    transform: translate(25px, 0px);
+    transition-duration: 0.8s;
+  }
+
+  .copyr {
+    padding-top: 10px;
+  }
+
+  .fotoLea {
+    opacity: 0;
+    position: sticky;
+    padding-right: 1px;
+  }
+
+  .datos {
+    margin-top: -45px;
+    padding-left: 103px;
+  }
+}
+/* ---------- PORTADA - TITULO --------- */
+.bodyPortada {
+  overflow: hidden;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  color: #efb4f1;
+  font-family: Neon Future;
+  font-size: 130px;
+  font-weight: normal;
+  padding: 80px 50px 10px 50px;
+  animation: cartelNeon 2s infinite alternate;
+}
+
+/* ---------- FIN PORTADA - TITULO --------- */
+/* ---------- MENU PRINCIPAL ---------- */
+.bodyMenu {
+  background-image: url(../images/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.menuBar {
+  padding-top: 80px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBar div {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  align-items: center;
+}
+
+.menuBar h4 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: Neon Future;
+  font-weight: normal;
+  display: none;
+}
+
+.menuBar img {
+  position: absolute;
+}
+
+.primero {
+  background-image: url(../images/menuprincipal/casaneon.png);
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 0.7s;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inicio {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.primero:hover .inicio {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.primero:hover {
+  background-image: none;
+  animation: none;
+}
+
+.segundo {
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 0.3s;
+  background-image: url(../images/menuprincipal/burger2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hamb {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.segundo:hover {
+  background-image: none;
+  animation: none;
+}
+.segundo:hover h4 {
+  display: block;
+}
+
+.segundo:hover .hamb {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.tercero {
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 0.9s;
+  background-image: url(../images/menuprincipal/pizzaneon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pizzas {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.tercero:hover {
+  background-image: none;
+  animation: none;
+}
+.tercero:hover h4 {
+  display: block;
+}
+
+.tercero:hover .pizzas {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.cuarto {
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 0.2s;
+  background-image: url(../images/menuprincipal/heladoneon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.helados {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.cuarto:hover {
+  background-image: none;
+  animation: none;
+}
+.cuarto:hover h4 {
+  display: block;
+}
+
+.cuarto:hover .helados {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.quinto {
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 0.5s;
+  background-image: url(../images/menuprincipal/veggieneon3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.veggie {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.quinto:hover {
+  background-image: none;
+  animation: none;
+}
+.quinto:hover h4 {
+  display: block;
+}
+
+.quinto:hover .veggie {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.sexto {
+  animation: intermitente 2s infinite alternate;
+  animation-delay: 1s;
+  background-image: url(../images/menuprincipal/contactneon2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacto {
+  text-align: center;
+  margin-top: 38px;
+  opacity: 0;
+}
+
+.sexto:hover {
+  background-image: none;
+  animation: none;
+}
+.sexto:hover h4 {
+  display: block;
+}
+
+.sexto:hover .contacto {
+  text-align: center;
+  display: block;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.menuBar a {
+  color: black;
+}
+
+.menuBar a {
+  text-shadow: 0px 0px 48px #e400ff, 0px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+}
+
+/* ---------- FIN MENU PRINCIPAL ---------- */
+/* ---------- MENU PRINCIPAL ---------- */
+@media only screen and (max-height: 568px) {
+  .menuBar div {
+    width: 100%;
+    height: 88px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .textoFormulario {
+    color: white;
+    font-size: 13px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+@media only screen and (min-height: 569px) and (max-height: 640px) {
+  .menuBar div {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-height: 640px) and (max-height: 900px) {
+  .menuBar div {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-height: 50px) and (max-height: 670px) {
+  .menuBar {
+    padding-top: 0px;
+  }
+}
+@media only screen and (min-height: 671px) and (max-height: 800px) {
+  .menuBar {
+    padding-top: 25px;
+  }
+}
+/* ---------- FIN MENU ---------- */
+/* MENU SLIDE */
+.cbp-spmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+  position: fixed;
+}
+
+.cbp-spmenu .objeto1 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto1:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto1:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.cbp-spmenu .objeto2 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto2:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto2:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.cbp-spmenu .objeto3 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto3:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto3:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.cbp-spmenu .objeto4 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto4:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto4:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.cbp-spmenu .objeto5 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto5:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto5:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.cbp-spmenu .objeto6 h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cbp-spmenu .objeto6:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.cbp-spmenu .objeto6:hover h4 {
+  opacity: 1;
+  transform: translateY(30.5px);
+  transition: 0.5s;
+}
+
+.objeto1 {
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/casa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.objeto2 {
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/b1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.objeto3 {
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/p1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.objeto4 {
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/h1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.objeto5 {
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/v1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.objeto6 {
+  margin-right: 37px;
+  width: 17%;
+  height: 65px;
+  background-image: url(../images/menuslide/contact.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cbp-spmenu-horizontal {
+  width: 100%;
+  height: 68px;
+  left: 0;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.cbp-spmenu-top {
+  top: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+  top: 0px;
+}
+
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+/* TRANSITIONS */
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* FIN MENU SLIDE */
+@media only screen and (max-width: 520px) {
+  .objeto1,
+.objeto2,
+.objeto3,
+.objeto4,
+.objeto5,
+.objeto6 {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+  }
+
+  .cbp-spmenu .objeto1 h4 {
+    color: transparent;
+  }
+
+  .cbp-spmenu .objeto2 h4 {
+    color: transparent;
+  }
+
+  .cbp-spmenu .objeto3 h4 {
+    color: transparent;
+  }
+
+  .cbp-spmenu .objeto4 h4 {
+    color: transparent;
+  }
+
+  .cbp-spmenu .objeto5 h4 {
+    color: transparent;
+  }
+
+  .cbp-spmenu .objeto6 h4 {
+    color: transparent;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .cbp-spmenu .objeto1 h4 {
+    font-size: 12px;
+  }
+
+  .cbp-spmenu .objeto2 h4 {
+    font-size: 12px;
+  }
+
+  .cbp-spmenu .objeto3 h4 {
+    font-size: 12px;
+  }
+
+  .cbp-spmenu .objeto4 h4 {
+    font-size: 12px;
+  }
+
+  .cbp-spmenu .objeto5 h4 {
+    font-size: 12px;
+  }
+
+  .cbp-spmenu .objeto6 h4 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 45px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 675px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 55px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 676px) and (max-width: 960px) {
+  .titulo {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 85px;
+    font-weight: normal;
+    padding: 24px 18px 2px 18px;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1450px) {
+  .titulo {
+    padding: 50px 35px 0px 35px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 120px;
+    font-weight: normal;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 960px) {
+  .heladosBody {
+    background-image: url(../images/helados/fondoHeladosFinal.png);
+    background-size: 280%;
+  }
+
+  .pizzasBody {
+    background-image: url(../images/pizzas/pizzaFondo5.png);
+    background-size: 280%;
+  }
+
+  .hamburguesas {
+    background-image: url(../images/hamburguesas/fondoHamb.png);
+    background-size: 280%;
+  }
+
+  .veggieBody {
+    background-image: url(../images/veggie/fondoVeggieFinal.png);
+    background-size: 280%;
+  }
+
+  .nombreBar1,
+.nombreBar2,
+.nombreBar3 {
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    opacity: 1;
+    user-select: none;
+  }
+
+  .bar1:hover .nombreBar1 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+    backface-visibility: hidden;
+  }
+
+  .bar2:hover .nombreBar2 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .bar3:hover .nombreBar3 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .textPresentacion {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+  }
+  .textPresentacion h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .contenedorPortada {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .textos {
+    margin-top: 0;
+  }
+
+  .parrafoTitulo {
+    color: white;
+    font-size: 16px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .subTitulo {
+    font-size: 3.2em;
+    text-align: center;
+  }
+
+  .bares {
+    width: 100%;
+  }
+
+  .listaBares {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .listaBares li img {
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+    filter: grayscale(0%);
+  }
+
+  .listaBares li {
+    margin-right: 10px;
+  }
+
+  .presentacion {
+    color: white;
+    text-align: center;
+  }
+  .presentacion p {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .local1 {
+    width: 100%;
+  }
+
+  .local2 {
+    width: 100%;
+  }
+
+  .local3 {
+    width: 100%;
+  }
+
+  .imagenPortada {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgLocales {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .text h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .car {
+    width: 300px;
+    height: auto;
+  }
+
+  .car1 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .car2 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .containerLocal1 {
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgCar {
+    width: 180px;
+    height: auto;
+  }
+
+  .text {
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .fotoLea {
+    display: none;
+  }
+
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+
+  .creador:hover .fotoLea {
+    opacity: 1;
+    transform: translate(25px, 0px);
+    transition-duration: 0.8s;
+  }
+
+  .copyr {
+    padding-top: 10px;
+  }
+
+  .fotoLea {
+    opacity: 0;
+    position: sticky;
+    padding-right: 1px;
+  }
+
+  .datos {
+    margin-top: -45px;
+    padding-left: 103px;
+  }
+}
+.modalContacto {
+  z-index: 15;
+  background-color: rgba(10, 10, 10, 0.801);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+}
+
+.modalContactoMenu {
+  z-index: 15;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-contenido {
+  background-image: url(../images/contacto/fondoContacto2.png);
+  width: 90%;
+  padding: 12px 20px;
+  margin: 4% auto;
+  position: relative;
+}
+.modal-contenido textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+#contactanos:target {
+  color: white;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.botonesForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.custom-control-label {
+  padding-right: 30px;
+}
+
+.cerrarContactos {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  float: right;
+  background-color: rgba(10, 10, 10, 0.801);
+  text-shadow: white 0px 0px 20px, white 0px 0px 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botonFormulario {
+  margin: auto 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding: 5px;
+  pointer-events: all;
+  border-radius: 10px;
+  box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+}
+.botonFormulario:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.textoFormulario {
+  color: white;
+  font-size: 24px;
+  background-color: rgba(10, 10, 10, 0.801);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: white;
+}
+
+form input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  border: 0.5px solid white;
+  box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+form input[type=radio] {
+  box-shadow: none;
+  border: 2px solid white;
+  width: 18px;
+  height: 18px;
+}
+
+input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: black;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+form select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 0.5px solid white;
+  box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+form textarea {
+  border: 0.5px solid white;
+  box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.opcion1 {
+  padding-right: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .textoFormulario {
+    color: white;
+    font-size: 16px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+@media only screen and (max-height: 736px) {
+  .textoFormulario {
+    color: white;
+    font-size: 16px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .modal-contenido {
+    background-image: url(../images/contacto/fondoContacto2.png);
+    width: 100%;
+    padding: 10px 20px;
+    margin: 2% auto;
+    position: relative;
+  }
+}
+.contenedorPortada {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.imagenPortada {
+  animation: aparece 1s;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: aparece 1s;
+}
+
+.parrafoTitulo {
+  color: white;
+  font-size: 2em;
+  background-color: rgba(10, 10, 10, 0.801);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subTitulo {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 70px;
+  font-style: italic;
+  text-align: start;
+  background-color: rgba(10, 10, 10, 0.801);
+}
+
+.listaBares {
+  margin-top: -60px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listaBares li {
+  margin: 0px 20px;
+}
+
+.listaBares li img {
+  border: 2px solid white;
+  border-radius: 5%;
+  filter: grayscale(100%);
+}
+
+.listaBares li img:hover {
+  filter: grayscale(0%);
+}
+
+.listaBares li img:hover {
+  transform: scale(1.15);
+  transition: box-shadow 0.2s, transform 0.5s;
+  box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+}
+
+.bar1:hover .nombreBar1 {
+  opacity: 1;
+  transform: scale(2, 2);
+  transition: 0.8s;
+  backface-visibility: hidden;
+}
+
+.bar2:hover .nombreBar2 {
+  opacity: 1;
+  transform: scale(2, 2);
+  transition: 0.8s;
+}
+
+.bar3:hover .nombreBar3 {
+  opacity: 1;
+  transform: scale(2, 2);
+  transition: 0.8s;
+}
+
+.nombreBar1,
+.nombreBar2,
+.nombreBar3 {
+  font-size: 15px;
+  z-index: 2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+.containerLocal1 {
+  padding: 20px 0px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentacion {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.textPresentacion {
+  width: 50%;
+  margin: auto;
+  padding-top: 60px;
+}
+.textPresentacion h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.textPresentacion p {
+  color: white;
+  font-size: 27px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.carTitulo {
+  background-color: rgba(10, 10, 10, 0.801);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.car1 {
+  padding: 42px 0px;
+  background-color: rgba(10, 10, 10, 0.801);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.car2 {
+  padding: 42px 0px;
+  background-color: rgba(10, 10, 10, 0.801);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.text {
+  width: 60%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  text-align: center;
+}
+.text h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text p {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@keyframes cartelNeon {
+  0%, 10%, 30%, 50%, 70%, 90%, 100% {
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+  }
+  0%, 10%, 30%, 50%, 70%, 90%, 100% {
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff, inset 0 0 1.5vw 0.4vw #e400ff, inset 0 0 0.4vw 0.2vw #e400ff, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1.5rem;
+  }
+  10%, 15%, 60% {
+    text-shadow: none;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, inset 0 0 0.5vw 0.2vw #fff7f7;
+  }
+}
+@keyframes intermitente {
+  5%, 20%, 35%, 50%, 90% {
+    opacity: 0.3;
+  }
+  10%, 50%, 80% {
+    opacity: 1;
+  }
+}
+@keyframes aparece {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 45px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 675px) {
+  .bodyPortada {
+    overflow: hidden;
+  }
+
+  .titulo {
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 55px;
+    font-weight: normal;
+    padding: 23px 11px 4px 11px;
+    animation: intermitente 2s infinite alternate;
+    text-shadow: 68px 0px 48px #e400ff, 4px 2px 0px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff, 0px 0px 48px #e400ff, 0px 0px 36px #e400ff, 0px 0px 26px #e400ff;
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e400ff, 0 0 4vw 0.4vw #e400ff;
+    border-radius: 1.5rem;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 676px) and (max-width: 960px) {
+  .titulo {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 85px;
+    font-weight: normal;
+    padding: 24px 18px 2px 18px;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1450px) {
+  .titulo {
+    padding: 50px 35px 0px 35px;
+    text-align: center;
+    color: #fff7f7;
+    font-family: Neon Future;
+    font-size: 120px;
+    font-weight: normal;
+  }
+
+  .portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 960px) {
+  .heladosBody {
+    background-image: url(../images/helados/fondoHeladosFinal.png);
+    background-size: 280%;
+  }
+
+  .pizzasBody {
+    background-image: url(../images/pizzas/pizzaFondo5.png);
+    background-size: 280%;
+  }
+
+  .hamburguesas {
+    background-image: url(../images/hamburguesas/fondoHamb.png);
+    background-size: 280%;
+  }
+
+  .veggieBody {
+    background-image: url(../images/veggie/fondoVeggieFinal.png);
+    background-size: 280%;
+  }
+
+  .nombreBar1,
+.nombreBar2,
+.nombreBar3 {
+    z-index: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+    top: 110px;
+    text-align: center;
+    opacity: 1;
+    user-select: none;
+  }
+
+  .bar1:hover .nombreBar1 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+    backface-visibility: hidden;
+  }
+
+  .bar2:hover .nombreBar2 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .bar3:hover .nombreBar3 {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+  .textPresentacion {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+  }
+  .textPresentacion h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .contenedorPortada {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .textos {
+    margin-top: 0;
+  }
+
+  .parrafoTitulo {
+    color: white;
+    font-size: 16px;
+    background-color: rgba(10, 10, 10, 0.801);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .subTitulo {
+    font-size: 3.2em;
+    text-align: center;
+  }
+
+  .bares {
+    width: 100%;
+  }
+
+  .listaBares {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .listaBares li img {
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: white 0px 0px 10px, white 0px 0px 10px;
+    filter: grayscale(0%);
+  }
+
+  .listaBares li {
+    margin-right: 10px;
+  }
+
+  .presentacion {
+    color: white;
+    text-align: center;
+  }
+  .presentacion p {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .local1 {
+    width: 100%;
+  }
+
+  .local2 {
+    width: 100%;
+  }
+
+  .local3 {
+    width: 100%;
+  }
+
+  .imagenPortada {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgLocales {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .text h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .car {
+    width: 300px;
+    height: auto;
+  }
+
+  .car1 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .car2 {
+    background-color: rgba(10, 10, 10, 0.801);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .containerLocal1 {
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgCar {
+    width: 180px;
+    height: auto;
+  }
+
+  .text {
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .fotoLea {
+    display: none;
+  }
+
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .formaBoton {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .creador:hover .formaBoton {
+    background-color: #f7d9c4;
+    color: white;
+    border: 3px solid #627997;
+    transition-duration: 0.5s;
+  }
+
+  .creador:hover .fotoLea {
+    opacity: 1;
+    transform: translate(25px, 0px);
+    transition-duration: 0.8s;
+  }
+
+  .copyr {
+    padding-top: 10px;
+  }
+
+  .fotoLea {
+    opacity: 0;
+    position: sticky;
+    padding-right: 1px;
+  }
+
+  .datos {
+    margin-top: -45px;
+    padding-left: 103px;
+  }
+}
+.hamburguesas {
+  background-image: url(../images/hamburguesas/fondoHamb.png);
+}
+
+.presentacionOlson {
+  background-image: url(../images/hamburguesas/olsonfondo.jpg);
+}
+
+.presentacionOlaf {
+  background-image: url(../images/hamburguesas/olaflfondopres.jpg);
+}
+
+.presentacionRonnie {
+  background-image: url(../images/hamburguesas/ronniefondopres.jpg);
+}
+
+.burguerLocal1 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/fondoOlson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.burguerLocal2 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/fondoOlaf.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.burguerLocal3 {
+  width: 100%;
+  background-image: url(../images/hamburguesas/ronnieBG.jpg);
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .burguerLocal1 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoOlsonMobile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .burguerLocal2 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoMobileOlaf.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .burguerLocal3 {
+    width: 100%;
+    background-image: url(../images/hamburguesas/fondoMobileRonnie.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+/* ---------- FOOTER ---------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  color: black;
+  background-color: white;
+}
+
+.redes {
+  width: 100%;
+  height: 33%;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.redes a {
+  padding: 10px;
+}
+
+.redes H4, .redes a {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.datos {
+  height: 33%;
+}
+.datos H4, .datos a {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyr {
+  height: 33%;
+}
+.copyr H4 {
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footerIcon:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+/* ---------- FIN FOOTER ---------- */
+@media only screen and (max-width: 425px) {
+  .footer {
+    width: 100%;
+  }
+}
+.pizzasBody {
+  background-image: url(../images/pizzas/pizzaFondo5.png);
+}
+
+.contPortPizza {
+  padding-top: 120px;
+}
+
+.presentacionTortugas {
+  background-image: url(../images/pizzas/tortugasprueba.jpg);
+  background-position: center;
+}
+
+.presentacionCrunchys {
+  background-image: url(../images/pizzas/pruebacrunch.jpg);
+  background-position: center;
+}
+
+.presentacionLaGran {
+  background-image: url(../images/pizzas/lagranprueba.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pizzaLocal1 {
+  width: 100%;
+  background-image: url(../images/pizzas/fondoTortugas.jpg);
+  background-position: center;
+}
+
+.pizzaLocal2 {
+  width: 100%;
+  background-image: url(../images/pizzas/fondoCrunchys.jpg);
+  background-repeat: no-repeat;
+}
+
+.pizzaLocal3 {
+  width: 100%;
+  background-image: url(../images/pizzas/laGranArgFondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .pizzaLocal1 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileTortugas.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .pizzaLocal2 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileCrunchys.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .pizzaLocal3 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileLaGran.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+.heladosBody {
+  background-image: url(../images/helados/fondoHeladosFinal.png);
+}
+
+.presentacionTwinky {
+  background-image: url(../images/helados/twinkyPresentacion.jpg);
+}
+
+.presentacionAmerico {
+  background-image: url(../images/helados/americoPresentacion.jpg);
+}
+
+.presentacionCatania {
+  background-image: url(../images/helados/cataniaPresentacion.jpg);
+}
+
+.heladosLocal1 {
+  width: 100%;
+  background-image: url(../images/helados/twinkyFondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heladosLocal2 {
+  width: 100%;
+  background-image: url(../images/helados/americoFondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.heladosLocal3 {
+  width: 100%;
+  background-image: url(../images/helados/cataniaFondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .heladosLocal1 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileTwinky.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .heladosLocal2 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileAmerico.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .heladosLocal3 {
+    width: 100%;
+    background-image: url(../images/helados/fondoMobileCatania.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+.veggieBody {
+  background-image: url(../images/veggie/fondoVeggieFinal.png);
+}
+
+.presentacionVerdeQ {
+  background-image: url(../images/veggie/presentacionVqV.png);
+  background-position: center;
+}
+
+.presentacionHevale {
+  background-image: url(../images/veggie/logohav.png);
+  background-position: center;
+}
+
+.veggieLocal1 {
+  width: 100%;
+  background-image: url(../images/veggie/restaurant-interior.jpg);
+  background-position: center;
+}
+
+.veggieLocal2 {
+  width: 100%;
+  background-image: url(../images/veggie/fondoVerde.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 980px) {
+  .veggieLocal1 {
+    width: 100%;
+    background-image: url(../images/veggie/fondoMobileHeval.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .veggieLocal2 {
+    width: 100%;
+    background-image: url(../images/veggie/fondoMobileVerde.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+/* BOTON MENU */
+.hamburger {
+  position: fixed;
+  top: 3px;
+  right: 0px;
+  z-index: 7;
+  padding: 18px 1px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.hamburger:hover {
+  opacity: 0.8;
+}
+
+.hamburger.is-active:hover {
+  opacity: 0.8;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: black;
+}
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger-inner::before {
+  top: -10px;
+}
+
+.hamburger-inner::after {
+  bottom: -10px;
+}
+
+.hamburger--elastic .hamburger-inner {
+  top: 2px;
+  transition-duration: 0.275s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic .hamburger-inner::before {
+  top: 10px;
+  transition: opacity 0.125s 0.275s ease;
+}
+
+.hamburger--elastic .hamburger-inner::after {
+  top: 20px;
+  transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hamburger--elastic.is-active .hamburger-inner {
+  transform: translate3d(0, 10px, 0) rotate(135deg);
+  transition-delay: 0.075s;
+}
+
+.hamburger--elastic.is-active .hamburger-inner::before {
+  transition-delay: 0s;
+  opacity: 0;
+}
+
+.hamburger--elastic.is-active .hamburger-inner::after {
+  transform: translate3d(0, -20px, 0) rotate(-270deg);
+  transition-delay: 0.075s;
+}
+
+/* FIN BOTON MENU */
+@media only screen and (max-width: 520px) {
+  .hamburger {
+    padding: 2px 1px;
+  }
+
+  .cbp-spmenu-horizontal {
+    width: 100%;
+    height: 38px;
+    left: 0;
+    z-index: 6;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

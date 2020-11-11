@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="description"
+    content="Te vamos a orientar para que sepas donde comer hamburguesas, pizzas y helados en tu visita a la ciudad de Rosario">
+  <meta name="keywords"
+    content="hamburguesas, pizzas, helados, veggie, cerveza artesanal, ciudad, rosario, bares, heladerias, cervecerias">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Masticando Rosario - Hamburguesas</title>
+</head>
+
+<body class="cbp-spmenu-push veggieBody">
+
+  <!-- BOTON MENU -->
+
+  <button id="showTop" class="hamburger hamburger--elastic" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <!-- FIN BOTON MENU -->
+
+  <!-- MENU SLIDE -->
+
+
+  <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
+    <div class="objeto1">
+      <a href="index.html">
+        <h4 class="ms-links">INICIO</h4>
+      </a>
+    </div>
+    <div class="objeto2">
+      <a href="hamburguesas.html">
+        <h4 class="ms-links">HAMBURGUESAS</h4>
+      </a>
+    </div>
+    <div class="objeto3">
+      <a href="pizzas.html">
+        <h4 class="ms-links">PIZZAS</h4>
+      </a>
+    </div>
+    <div class="objeto4">
+      <a href="helados.html">
+        <h4 class="ms-links">HELADOS</h4>
+      </a>
+    </div>
+    <div class="objeto5">
+      <a href="veggie.html">
+        <h4 class="ms-links">VEGGIE</h4>
+      </a>
+    </div>
+    <div class="objeto6">
+      <a href="#contactanos">
+        <h4 class="ms-links">CONTACTO</h4>
+      </a>
+    </div>
+  </nav>
+
+  <!-- FIN MENU SLIDE -->
+
+  <div id="contactanos" class="modalContacto">
+    <div class="modal-contenido">
+      <a class="cerrarContactos" href="#">X</a>
+      <form action="" class="formulario" autocomplete="off">
+        <label for="nombre" class="textoFormulario">Dejanos tu nombre!</label><br>
+        <input type="text" placeholder="Nombre y apellido"><br>
+        <div>
+          <label for="exampleFormControlInput1" class="textoFormulario">Tu mail!</label><br>
+          <input type="email" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div><br>
+        <label for="compañia" class="textoFormulario">Salís mas con amigos o en pareja?</label><br>
+        <select>
+          <option selected>Elegí tu compañía</option>
+          <option value="1">Amigos</option>
+          <option value="2">Pareja</option>
+          <option value="3">Mejor solo que mal acompañado</option>
+        </select><br>
+        <label for="" class="textoFormulario">Querés recibir novedades de nuevos locales y menus?</label><br>
+        <div class="botonesForm">
+          <div>
+            <input type="radio" id="customRadio1" name="customRadio">
+            <label for="customRadio1" class="textoFormulario opcion1">Si, me encantaría!</label>
+          </div>
+          <div>
+            <input type="radio" id="customRadio2" name="customRadio">
+            <label for="customRadio2" class="textoFormulario">Paso!</label>
+          </div>
+        </div><br>
+        <div class=" formulario">
+          <label for="exampleFormControlTextarea1" class="textoFormulario">Dejanos tus comentarios que nos super
+            interesan!</label><br>
+          <textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div><br>
+        <div class="botonesForm">
+          <button class="botonFormulario" type="submit" class="textoFormulario">Enviar</button>
+          <button class="botonFormulario" type="submit" class="textoFormulario">Borrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+
+  <header>
+    <div class="contenedorPortada">
+      <div>
+        <img src="images/veggie/ensaladaVeggie2.png" alt="ensalada de vegetales" class="imagenPortada">
+      </div>
+      <div class="textos">
+        <h2 class="subTitulos subTitulo">Veggie</h2>
+        <p class="parrafoTitulo">En esta sección te vamos a guiar a donde podes ir a comer si sos vegano o vegetariano.
+          Mas allá que alguno de los locales que nombramos anteriormente poseen menus vegetarianos o veganos,
+          aca te vamos a nombrar dos lugares a donde podes ir que todo o la mayoría lo vas a poder comer!
+        </p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="bares">
+
+      <ul class="listaBares">
+        <li class="bar1" data-aos="fade-up" data-aos-offset="350" data-aos-delay="200">
+          <h3 class="nombreBar1">verde qtq verde</h3><a href="#verdeQ"><img src="images/veggie/verdeBar.png"
+              alt="pasta en wok" class="imgLocales"></a>
+        </li>
+        <li class="bar2" data-aos="fade-up" data-aos-offset="350" data-aos-delay="500">
+          <h3 class="nombreBar2">Hevale</h3><a href="#hevale"><img src="images/veggie/havaleBar.png"
+              alt="choripan vegano" class="imgLocales"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- FIN HEADER -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- CONTENIDO PRINCIPAL -->
+
+  <main>
+    <section>
+      <div class=veggieLocal2>
+        <div id="verdeQ"  class="presentacion presentacionVerdeQ">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>verde que te quiero verde</h3>
+            <p>
+              Ubicado en el centro de la ciudad, a pasos de peatonal cordoba, este local nos ofrece toda una carta de
+              todos
+              alimentos super saludables. Todos los platos son vegetarianos y veganos. En la carta no hay nada que
+              contenga
+              carne ni ningún tipo de gaseosa.
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+              <div class="text">
+                <h3>que tal los platos?</h3>
+                <p>
+                  VERDE QUE TE QUIERO VERDE nos ofrece una carta bastante amplia, donde podemos encontrar desde
+                  ensaladas
+                  hasta platos muy elaborados como ser Risotto con jale asado y alcauciles. Vamos a ver alguno de ellos!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/veggie/plato1Verde.png" alt="comida vegana en wok">
+              <div class="text">
+                <h3>risotto con jale asado y alcauciles</h3>
+                <p>
+                  Pedimos este plato porque queríamos probar el jale asado. La verdad muy rico, todo bien condimentado y
+                  muy gustoso. El plato es muy abundante y pedimos un jugo natural de naranja para tomar, delicioso!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/veggie/plato3Verde.png" alt="pasta en plato hondo">
+              <div class="text">
+                <h3>tagliatelle salteados con espárragos y tomates cherrys</h3>
+                <p>
+                  Qué mas rico que una pasta para degustar. Estos tagiatelle estaban espectaculares, una pasta liviana y
+                  suave.
+                  La salsa estaba muy buena, con los espárragos y el cherry salteados en manteca y para culminar una
+                  salsa de soja.
+                  La verdad... una locura!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div class=veggieLocal1>
+        <div id="hevale" class="presentacion presentacionHevale">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>Hevalê Cocina Vegana</h3>
+            <p>
+              Este local nos ofrece todo tipo de comida vegana y vegetariana. Con gran abundancia de platos, ya sean
+              platos dulces o salados, hevale te va a sorprender con su gran variedad. Todo abundante y muy rico!
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+              <div class="text">
+                <h3>que tal la comida?</h3>
+                <p>
+                  En HEVALE COCINA VEGANA vas a encontrar muchas delicias para probar, siempre con ingredientes veganos
+                  y
+                  naturales. Desde platos elaborados hasta picadas veggies para que disfrutes con tus amigos!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/veggie/halevPlato1.png" alt="tres wraps de verduras">
+              <div class="text">
+                <h3>wrap de vegetales</h3>
+                <p>
+                  Nada mas rico y fresco que un wrap para los dias de verano interminables. Decidimos probarlo por la
+                  variedad de
+                  colores que tenia dentro. Una combinación de tomates cherry, choclo, rucula, cebolla morada, perejil y
+                  algunos que
+                  otros ingredientes secretos que crean un sabor inigualable. Digno de ser probado!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/veggie/halevPlato2.png" alt="choripan vegano">
+              <div class="text">
+                <h3>chori veggie</h3>
+                <p>
+                  Para todos aquellos que quieren probar cosas veggies, en hevale probamos el chori veggie. Un chori
+                  elaborado
+                  100% con ingredientes veganos, acompañado por una mayo vegana, semillas y rucula. El chori estaba muy
+                  bueno,
+                  y la combinación con los demás ingredientes la rompió!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <br>
+  <br>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+
+  <br>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="redes">
+      <a href="#"><img src="images/footer/twitter.png" alt="twitter icono" class="footerIcon twitter"></a>
+      <a href="#"><img src="images/footer/facebook.png" alt="facebook icono" class="footerIcon facebook"></a>
+      <a href="#"><img src="images/footer/instagram.png" alt="instagram icono" class="footerIcon instagram"></a>
+      <a href="#"><img src="images/footer/whatsapp.png" alt="whatsapp icono" class="footerIcon whatsapp"></a>
+    </div>
+    <div class="datos">
+      <h4>Creado y Diseñado por <span class="creador"><a href="https://www.linkedin.com/in/leandro--martin/" target="_blank" class="formaBoton">Leandro Martin</a><img src="images/leandroMartinIn.png" class="fotoLea" alt=""></span></h4>
+    </div>
+      <div class="copyr">
+        <h4>Copyright ® 2020</h4>
+      </div>
+  </footer>
+  
+  <!-- FIN FOOTER -->
+
+    <!-- SCRIPTS -->
+
+    <script src="asd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+    <!--  FIN SCRIPTS -->
+    
+</body>
+
+</html>

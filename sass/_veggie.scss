@@ -1,0 +1,44 @@
+.veggieBody {
+  background-image: url(../images/veggie/fondoVeggieFinal.png);
+}
+
+.presentacionVerdeQ {
+  background-image: url(../images/veggie/presentacionVqV.png);
+  background-position: center;
+}
+
+.presentacionHevale {
+  background-image: url(../images/veggie/logohav.png);
+  background-position: center;
+}
+
+.veggieLocal1 {
+  width: 100%;
+  background-image: url(../images/veggie/restaurant-interior.jpg);
+  background-position: center;
+}
+
+.veggieLocal2 {
+  width: 100%;
+  background-image: url(../images/veggie/fondoVerde.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 980px) {
+  .veggieLocal1 {
+    width: 100%;
+    background-image: url(../images/veggie/fondoMobileHeval.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .veggieLocal2 {
+    width: 100%;
+    background-image: url(../images/veggie/fondoMobileVerde.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}

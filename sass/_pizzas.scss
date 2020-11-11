@@ -1,0 +1,70 @@
+.pizzasBody {
+  background-image: url(../images/pizzas/pizzaFondo5.png);
+}
+
+.contPortPizza {
+  padding-top: 120px;
+}
+
+.presentacionTortugas {
+  background-image: url(../images/pizzas/tortugasprueba.jpg);
+  background-position: center;
+}
+
+.presentacionCrunchys {
+  background-image: url(../images/pizzas/pruebacrunch.jpg);
+  background-position: center;
+}
+
+.presentacionLaGran {
+  background-image: url(../images/pizzas/lagranprueba.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pizzaLocal1 {
+  width: 100%;
+  background-image: url(../images/pizzas/fondoTortugas.jpg);
+  background-position: center;
+}
+
+.pizzaLocal2 {
+  width: 100%;
+  background-image: url(../images/pizzas/fondoCrunchys.jpg);
+  background-repeat: no-repeat;
+
+}
+
+.pizzaLocal3 {
+  width: 100%;
+  background-image: url(../images/pizzas/laGranArgFondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+  .pizzaLocal1 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileTortugas.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .pizzaLocal2 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileCrunchys.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .pizzaLocal3 {
+    width: 100%;
+    background-image: url(../images/pizzas/fondoMobileLaGran.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}

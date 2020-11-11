@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="description"
+    content="Te vamos a orientar para que sepas donde comer hamburguesas, pizzas y helados en tu visita a la ciudad de Rosario">
+  <meta name="keywords"
+    content="hamburguesas, pizzas, helados, veggie, cerveza artesanal, ciudad, rosario, bares, heladerias, cervecerias">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Masticando Rosario - Pizzas</title>
+</head>
+
+<body class="cbp-spmenu-push pizzasBody">
+
+  <!-- BOTON MENU -->
+
+  <button id="showTop" class="hamburger hamburger--elastic" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <!-- FIN BOTON MENU -->
+
+  <!-- MENU SLIDE -->
+
+
+  <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
+    <div class="objeto1">
+      <a href="index.html">
+        <h4 class="ms-links">INICIO</h4>
+      </a>
+    </div>
+    <div class="objeto2">
+      <a href="hamburguesas.html">
+        <h4 class="ms-links">HAMBURGUESAS</h4>
+      </a>
+    </div>
+    <div class="objeto3">
+      <a href="pizzas.html">
+        <h4 class="ms-links">PIZZAS</h4>
+      </a>
+    </div>
+    <div class="objeto4">
+      <a href="helados.html">
+        <h4 class="ms-links">HELADOS</h4>
+      </a>
+    </div>
+    <div class="objeto5">
+      <a href="veggie.html">
+        <h4 class="ms-links">VEGGIE</h4>
+      </a>
+    </div>
+    <div class="objeto6">
+      <a href="#contactanos">
+        <h4 class="ms-links">CONTACTO</h4>
+      </a>
+    </div>
+  </nav>
+
+
+  <!-- FIN MENU SLIDE -->
+
+  <!-- VENTANA CONTACTO -->
+
+  <div id="contactanos" class="modalContacto">
+    <div class="modal-contenido">
+      <a class="cerrarContactos" href="#">X</a>
+      <form action="" class="formulario" autocomplete="off">
+        <label for="nombre" class="textoFormulario">Dejanos tu nombre!</label><br>
+        <input type="text" placeholder="Nombre y apellido"><br>
+        <div>
+          <label for="exampleFormControlInput1" class="textoFormulario">Tu mail!</label><br>
+          <input type="email" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div><br>
+        <label for="compañia" class="textoFormulario">Salís mas con amigos o en pareja?</label><br>
+        <select>
+          <option selected>Elegí tu compañía</option>
+          <option value="1">Amigos</option>
+          <option value="2">Pareja</option>
+          <option value="3">Mejor solo que mal acompañado</option>
+        </select><br>
+        <label for="" class="textoFormulario">Querés recibir novedades de nuevos locales y menus?</label><br>
+        <div class="botonesForm">
+          <div>
+            <input type="radio" id="customRadio1" name="customRadio">
+            <label for="customRadio1" class="textoFormulario opcion1">Si, me encantaría!</label>
+          </div>
+          <div>
+            <input type="radio" id="customRadio2" name="customRadio">
+            <label for="customRadio2" class="textoFormulario">Paso!</label>
+          </div>
+        </div><br>
+        <div class=" formulario">
+          <label for="exampleFormControlTextarea1" class="textoFormulario">Dejanos tus comentarios que nos super
+            interesan!</label><br>
+          <textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div><br>
+        <div class="botonesForm">
+          <button class="botonFormulario" type="submit" class="textoFormulario">Enviar</button>
+          <button class="botonFormulario" type="submit" class="textoFormulario">Borrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FIN VENTANA CONTACTO -->
+
+  <!-- HEADER -->
+
+
+  <header>
+    <div class="contenedorPortada contPortPizza">
+      <div>
+        <img src="images/pizzas/pizzaTitulo2.png" alt="pizza entera" class="imagenPortada">
+      </div>
+      <div class="textos">
+        <h2 class="subTitulos subTitulo">Pizzas</h2>
+        <p class="parrafoTitulo">Todos los dias son buenos para comer una rica pizza. Acá vas a encontrar las 3
+          pizzerias de Rosario
+          donde podes ir tranquilo al mediodía o a la noche, que sabes que vas a comer rico y no te vas a clavar.
+          Obviamente
+          siempre acompañado de una cerveza bien fría... CONOZCAMOSLAS!
+        </p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="bares">
+
+      <ul class="listaBares">
+        <li class="bar1" data-aos="fade-up" data-aos-offset="350" data-aos-delay="200">
+          <h3 class="nombreBar1">Tortugas Ninja</h3><a href="#tortugas"><img src="images/pizzas/tortugas.jpg"
+              alt="slide de pizza" class="imgLocales"></a>
+        </li>
+        <li class="bar2" data-aos="fade-up" data-aos-offset="350" data-aos-delay="500">
+          <h3 class="nombreBar2">Crunchy´s</h3><a href="#crunchys"><img src="images/pizzas/cruncjysBar.jpg"
+              alt="porción de pizza" class="imgLocales"></a>
+        </li>
+        <li class="bar3" data-aos="fade-up" data-aos-offset="350" data-aos-delay="700">
+          <h3 class="nombreBar3">La Gran Argentina</h3><a href="#argentina"><img src="images/pizzas/laGranArgentina.jpg"
+              alt="porción de pizza al molde" class="imgLocales"></a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- FIN HEADER -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- CONTENIDO PRINCIPAL -->
+
+
+  <main>
+    <section>
+      <div id="tortugas" class=pizzaLocal1>
+        <div class="presentacion presentacionTortugas">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>las tortugas ninja</h3>
+            <p>
+              Con dos sucursales en la ciudad, esta pizzeria pisó fuerte. Pizzas por porciones o enteras, tienen
+              delivery o la podes pasar a buscar. Muy ambientado como las pizzerias yankis.Pizzas estilo NY. Pizzas gigantes,
+              mucha muzzarella, y una gran variedad de sabores.
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+
+              <div class="text">
+                <h3>que tal las pizzas?</h3>
+                <p>
+                  LA PIZZERIA DE LAS TORTUGAS NINJA nos ofrece una cantidad de sabores inmensa, tenes desde la pizza
+                  mas simple solo con muzzarella, hasta con costillitas de cerdo o pollo rebozado arriba. El queso es
+                  muy rico,
+                  y la salsa tiene un sabor característico, entre dulce y pícante. Seguro vas a encontrar una que se
+                  adapte
+                  a vos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza1.png" alt="pizza">
+              <div class="text">
+                <h3>panceta y huevo</h3>
+                <p>
+                  Empezamos con una bomba no apta para cardíacos, una terrible pizza con dos ingredientes que combinados
+                  explotan todo. Esta pizza con una muzzarella riquísima y la salsa a su nivel, nos viene con 1 huevo
+                  frito y una
+                  feta de panceta en cada porción! La verdad que es muy rica y muy llenadora. Para comerla tranqui con
+                  una birra.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza3.png" alt="pizza">
+              <div class="text">
+                <h3>margarita</h3>
+                <p>
+                  Margarita, un clásico para los que quieren comer pizza y decir que es "un poco sana". Muy comida por
+                  vegetarianos, esta pizza viene con tomates cherrys, albahaca y aceite de oliva. La pizza es muy rica,
+                  fresca.
+                  El sabor de los cherrys y la albahaca mezclados con la masa la salsa y la muzzarella crea en sabor
+                  exquisito.
+                  No es de nuestro top, pero teníamos que probarla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <br>
+    <section>
+      <div id="crunchys" class=pizzaLocal2>
+        <div class="presentacion presentacionCrunchys">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>crunchy´s</h3>
+            <p>
+              Cerca de Pichincha, nos encontramos con esta pizzeria con el mismo estilo a la anterior, NY. Con pizzas
+              grandes, su forma casi perfecta, que llaman mucho la atención. Una masa liviana y fina, rico queso muzzarella
+              y una
+              salsa bien picante. Con lugar adentro y afuera para pasar una linda noche con amigos.
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+
+              <div class="text">
+                <h3>Como comimos?</h3>
+                <p>
+                  CRUNCHY´S tiene menos cantidad de sabores en su carta, pero tienen todos los fundamentales. Nos gusto
+                  mucho el sabor de la masa, medio dulce, que combinado con la acidez de la salsa y la muzzarella es una
+                  combinación perfecta para el paladar. Dejate tentar por uno de estos sabores...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza2.png" alt="pizza">
+              <div class="text">
+                <h3>Ananá</h3>
+                <p>
+                  Este sabor de pizza es muy conflictivo, amados por algunos, odiados por otro. No vamos a entrar en esa
+                  batalla, solo vamos a decir que en crunchy´s es una bomba! Cada porción viene con una rodaja de
+                  ananá,
+                  una cereza, y azúcar negra, una delicia para los amantes de lo agridulce y si no lo sos, probala igual
+                  y sorprendete!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza4.png" alt="pizza">
+              <div class="text">
+                <h3>Peperoni</h3>
+                <p>
+                  Clásicos de clásicos en este estilo de pizzas. No necesita presentación, si vas a cenar a crunchy´s,
+                  este sabor no falla. Con rodajas de peperoni del grosor justo sobre la gran capa de muzzarella
+                  esta pizza es una de nuestro top. La combinación de la masa dulce, la muzzarella y el peperoni, es
+                  un baile en nuestra boca.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section>
+      <div id="argentina" class=pizzaLocal3>
+        <div class="presentacion presentacionLaGran">
+          <div class="textPresentacion" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1100">
+            <h3>LA GRAN ARGENTINA</h3>
+            <p>
+              Ubicada sobre Avenida Francia ,una avenida muy linda de la ciudad, se puede comer adentro del
+              local o en las mesas que esta en la vereda. Pizzas al molde, basta de pizzas yankis. Pizzas altas, con
+              cuerpo,
+              con una masa liviana y un queso muzzarella aceitoso.
+            </p>
+          </div>
+        </div>
+        <div class="containerLocal1">
+          <div>
+            <div class="carTitulo" data-aos="fade-down" data-aos-offset="350">
+
+              <div class="text">
+                <h3>las mejores pizzas al molde?</h3>
+                <p>
+                  La Gran Argentina es una pizzeria que lleva años en la ciudad, es una clásico de Rosario como central
+                  y nob.
+                  Pizzas al molde, gruesas, con mucha muzzarella y una salsa espectacular, es lo que los caracteriza. Si
+                  vas, no
+                  podes dejar de probar la fainá. Siempre acompañado de un buen chopp quilmes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car2" data-aos="fade-left" data-aos-offset="350" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza5.png" alt="pizza">
+              <div class="text">
+                <h3>muzzarella y morrón</h3>
+                <p>Una pizza simple, pero elegante. Con tiras de morrón rojo y oregano llovido sobre la muzzarella, esta
+                  pizza combina
+                  elementos clásicos. Muy rica, para los que prefieren algo mas tranqui y no tan cargado. Siempre el
+                  punto a favor de
+                  la masa y la salsa, son espectaculares.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+
+            <div class="car1" data-aos="fade-right" data-aos-offset="250" data-aos-delay="100" data-aos-duration="800">
+              <img src="images/pizzas/pizza6.png" alt="pizza">
+              <div class="text">
+                <h3>panceta</h3>
+                <p>
+                  Esta pizza no necesita presentación, es simplemente esplendida, con tiras de panceta con un toque de
+                  dorado,
+                  que no llega a dejarla crocante, y fundiéndose en la muzzarella, es una de las mas ricas para
+                  nosotros. La masa
+                  con un piso justo acompaña de la mano estos sabores increíbles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+
+  <br>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="redes">
+      <a href="#"><img src="images/footer/twitter.png" alt="twitter icono" class="footerIcon twitter"></a>
+      <a href="#"><img src="images/footer/facebook.png" alt="facebook icono" class="footerIcon facebook"></a>
+      <a href="#"><img src="images/footer/instagram.png" alt="instagram icono" class="footerIcon instagram"></a>
+      <a href="#"><img src="images/footer/whatsapp.png" alt="whatsapp icono" class="footerIcon whatsapp"></a>
+    </div>
+    <div class="datos">
+      <h4>Creado y Diseñado por <span class="creador"><a href="https://www.linkedin.com/in/leandro--martin/" target="_blank" class="formaBoton">Leandro Martin</a><img src="images/leandroMartinIn.png" class="fotoLea" alt=""></span></h4>
+    </div>
+      <div class="copyr">
+        <h4>Copyright ® 2020</h4>
+      </div>
+  </footer>
+
+  <!-- FIN FOOTER -->
+
+  <!-- SCRIPTS -->
+
+  <script src="asd.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--  FIN SCRIPTS -->
+  
+</body>
+
+</html>
