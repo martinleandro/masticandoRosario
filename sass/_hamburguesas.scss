@@ -1,6 +1,7 @@
 @import 'mediasqueries';
 
 .hamburguesas {
+  color: red;
   background-image: url(../images/hamburguesas/fondoHamb.png);
 }
 
@@ -17,6 +18,7 @@
 }
 
 .burguerLocal1 {
+  margin-top: 110px;
   width: 100%;
   background-image: url(../images/hamburguesas/fondoOlson.jpg);
   background-repeat: no-repeat;
@@ -24,6 +26,7 @@
 }
 
 .burguerLocal2 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/hamburguesas/fondoOlaf.jpg);
   background-size: cover;
@@ -33,6 +36,7 @@
 
 
 .burguerLocal3 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/hamburguesas/ronnieBG.jpg);
   background-position: inherit;

@@ -1543,6 +1543,7 @@ form textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin-bottom: 60px;
 }
 
 .imagenPortada {
@@ -2148,6 +2149,7 @@ form textarea {
   }
 }
 .hamburguesas {
+  color: red;
   background-image: url(../images/hamburguesas/fondoHamb.png);
 }
 
@@ -2164,6 +2166,7 @@ form textarea {
 }
 
 .burguerLocal1 {
+  margin-top: 110px;
   width: 100%;
   background-image: url(../images/hamburguesas/fondoOlson.jpg);
   background-repeat: no-repeat;
@@ -2171,6 +2174,7 @@ form textarea {
 }
 
 .burguerLocal2 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/hamburguesas/fondoOlaf.jpg);
   background-size: cover;
@@ -2178,6 +2182,7 @@ form textarea {
 }
 
 .burguerLocal3 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/hamburguesas/ronnieBG.jpg);
   background-position: inherit;
@@ -2212,6 +2217,7 @@ form textarea {
 }
 /* ---------- FOOTER ---------- */
 .footer {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2297,18 +2303,21 @@ form textarea {
 }
 
 .pizzaLocal1 {
+  margin-top: 110px;
   width: 100%;
   background-image: url(../images/pizzas/fondoTortugas.jpg);
   background-position: center;
 }
 
 .pizzaLocal2 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/pizzas/fondoCrunchys.jpg);
   background-repeat: no-repeat;
 }
 
 .pizzaLocal3 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/pizzas/laGranArgFondo.jpg);
   background-position: center;
@@ -2350,14 +2359,17 @@ form textarea {
 }
 
 .presentacionAmerico {
+  margin-top: 90px;
   background-image: url(../images/helados/americoPresentacion.jpg);
 }
 
 .presentacionCatania {
+  margin-top: 90px;
   background-image: url(../images/helados/cataniaPresentacion.jpg);
 }
 
 .heladosLocal1 {
+  margin-top: 110px;
   width: 100%;
   background-image: url(../images/helados/twinkyFondo.jpg);
   background-repeat: no-repeat;
@@ -2419,12 +2431,14 @@ form textarea {
 }
 
 .veggieLocal1 {
+  margin-top: 90px;
   width: 100%;
   background-image: url(../images/veggie/restaurant-interior.jpg);
   background-position: center;
 }
 
 .veggieLocal2 {
+  margin-top: 120px;
   width: 100%;
   background-image: url(../images/veggie/fondoVerde.jpg);
   background-repeat: no-repeat;
